@@ -1,4 +1,6 @@
-name: Open Source at SAPO
+baseURL: 'oss.sapo.pt'
+languageCode: 'en-us'
+title: Open Source at SAPO
 learn: learn more
 #paragraph: top-space small-align-left tiny-align-left
 #image_list: all-30 small-100 tiny-100 small-align-center tiny-align-center
@@ -8,7 +10,7 @@ learn: learn more
 
 #permalink: /:categories
 
-menu:
+menus:
   - title: Home
     url: /#top
   - title: About 
@@ -22,10 +24,10 @@ menu:
  
 
 timezone: Europe/Lisbon
-redcarpet:
-  extensions:
-    - hard_wrap
-    - no_intra_emphasis
-    - autolink
-    - strikethrough
-    - fenced_code_blocks
+#redcarpet:
+#  extensions:
+#    - hard_wrap
+#    - no_intra_emphasis
+#    - autolink
+#    - strikethrough
+#    - fenced_code_blocks
